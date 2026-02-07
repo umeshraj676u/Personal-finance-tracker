@@ -236,6 +236,23 @@ cd frontend
 npm run build
 ```
 
+## 🌐 Live Demo
+
+🚀 Application is live at:  
+👉 https://personal-finance-tracker-2-y69e.onrender.com
+
+---
+
+## 🚀 Deployment (Render)
+
+This project is deployed on **Render** as a full-stack application (Frontend + Backend on same server).
+
+###  Build Command
+
+```bash
+cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install
+
+
 The built files will be in the `frontend/dist` directory.
 
 ## License
