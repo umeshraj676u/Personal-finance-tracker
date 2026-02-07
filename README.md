@@ -30,6 +30,10 @@ A comprehensive personal finance management application built with React, Tailwi
 - bcrypt for password hashing
 - Nodemailer for email verification
 
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/02ae5ca0-860a-46e3-b948-b0959caf0549" />
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/365aa9c0-882f-4957-9b20-43e9c2c4f03e" />
+
+
 ## Prerequisites
 
 - Node.js (v14 or higher)
@@ -160,6 +164,8 @@ Personal-Finance-Tracker/
 - `PUT /api/expenses/:id` - Update expense (protected)
 - `DELETE /api/expenses/:id` - Delete expense (protected)
 - `GET /api/expenses/category/:category` - Get expenses by category (protected)
+- <img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/6bb8f5d2-2cd8-496e-a250-592c5f938ab6" />
+
 
 ### Income
 - `GET /api/income` - Get all income entries (protected)
@@ -167,6 +173,8 @@ Personal-Finance-Tracker/
 - `GET /api/income/:id` - Get single income entry (protected)
 - `PUT /api/income/:id` - Update income entry (protected)
 - `DELETE /api/income/:id` - Delete income entry (protected)
+- <img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/b377acc4-6a33-4148-bc98-334e60cb9fdc" />
+
 
 ### Budgets
 - `GET /api/budget?month=&year=` - Get budgets for month/year (protected)
@@ -174,6 +182,8 @@ Personal-Finance-Tracker/
 - `GET /api/budget/:id` - Get single budget (protected)
 - `PUT /api/budget/:id` - Update budget (protected)
 - `DELETE /api/budget/:id` - Delete budget (protected)
+- <img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/5c817704-5493-4465-819f-f55281480d6e" />
+
 
 ## Usage
 
@@ -197,6 +207,8 @@ Personal-Finance-Tracker/
 - Education
 - Housing
 - Other
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/874f34b6-7711-44c2-8638-a2b4cfb8f339" />
+
 
 ## Income Frequency Options
 
