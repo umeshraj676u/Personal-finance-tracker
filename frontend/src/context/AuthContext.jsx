@@ -42,18 +42,19 @@ export const AuthProvider = ({ children }) => {
     return response.data
   }
 
-  const register = async (name, email, password) => {
-    const response = await axios.post('/api/auth/register', { name, email, password })
-    const { token, ...userData } = response.data
-    localStorage.setItem('token', token)
-    axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
-    setUser(userData)
-    
-    // Sync guest data if exists
-    await syncGuestData()
-    
-    return response.data
-  }
+const register = async (name, email, password) => {
+  const response = await axios.post('/api/auth/register', { name, email, password })
+  const { token, ...userData } = response.data
+
+  localStorage.setItem('token', token)
+  axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
+  setUser(userData)
+
+  syncGuestData() // no await
+
+  return response.data
+}
+
 
   const syncGuestData = async () => {
     try {
